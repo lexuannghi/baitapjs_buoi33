@@ -1,0 +1,358 @@
+$color_1: #f7f7f7;
+$color_2: #000000;
+$color_3: #000;
+$color_4: #cbc9c9;
+$color_5: #1e1d1d;
+$color_6: #fc0303;
+$color_7: #fffcfc;
+$color_8: #fff8f8;
+$color_9: #f50e0e;
+$color_10: #888888;
+$color_11: #F8B653;
+
+$font-family_1: "Inter";
+$font-family_2: "Inter";
+* {
+  font-family: $font-family_1;
+  font-style: normal;
+}
+.container_f {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  box-sizing: border-box;
+  position: relative;
+  width: 1280px;
+  height: 50px;
+  background: #000000;
+  border: 1px solid #000000;
+}
+.header-right {
+  margin: 10px;
+  a {
+    float: right;
+    position: static;
+  }
+}
+a:hover {
+  text-decoration: none !important;
+  color: $color_1;
+}
+.login {
+  width: 50px;
+  height: 32px;
+  left: 1105px;
+  top: 14px;
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: $color_1;
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.register {
+  width: 70px;
+  height: 32px;
+  left: 1170px;
+  top: 15px;
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: $color_1;
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.line {
+  display: inline-block;
+  position: relative;
+}
+
+.line:after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: $color_10;
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transition-duration: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+}
+
+.line:hover:after {
+  width: 100%;
+  left: 0;
+  transition-duration: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+}
+
+.image-header {
+  position: absolute;
+  left: 24px;
+  top: 10px;
+  img {
+    width: 116px;
+    height: 32px;
+  }
+}
+.cart-logo {
+  background: url(./cart.png) no-repeat;
+  width: 55px;
+  height: 30px;
+  color: $color_1;
+  position: absolute;
+  span {
+    position: relative;
+    top: -10px;
+    right: 0;
+    padding: 0 4px;
+    border-radius: 10px;
+    background-color: $color_6;
+    font-weight: bold;
+  }
+}
+.header-left {
+  float: left;
+  margin-top: 10px;
+}
+.menu {
+  position: relative;
+  width: 1280px;
+  height: 50px;
+  background: #ffffff;
+  .header-left {
+    a {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      color: $color_2;
+      padding: 20px 14px;
+    }
+  }
+}
+.banner {
+  width: 100%;
+  .bg-banner {
+    background-image: url(./../asset/image4.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    .text-banner {
+      margin-left: 230px;
+      margin-top: 60px;
+      font-family: $font-family_1;
+      h2 {
+        font-size: 40px;
+      }
+      p{
+        font-size: 20px;
+        line-height: 10px;
+      }
+      button {
+        width: 150px;
+        height: 50px;
+        background-color: $color_11;
+        color: $color_1;
+        font-family: $font-family_2;
+        font-weight: 300;
+        border: none;
+      }
+    }
+  }
+}
+
+.card {
+  margin: 20px;
+  width: 340px;
+  height: 369px;
+  left: 70px;
+  top: 0;
+  background: #f8f8f8;
+}
+#lstProduct {
+  width: 100% !important;
+  margin: 0 !important;
+}
+.display-4 {
+  font-size: 40px !important;
+  padding-top: 15px;
+}
+.card-img-top {
+  position: absolute;
+  width: 220px;
+  height: 156px;
+  left: 57px;
+  top: 45px;
+}
+.rectangle-2 {
+  position: absolute;
+  width: 175px;
+  height: 64px;
+  left: 0px;
+  top: 305px;
+  padding: 20px;
+  background: #e1b067;
+}
+.rectangle-3 {
+  position: absolute;
+  width: 165px;
+  height: 64px;
+  left: 174px;
+  top: 305px;
+  padding: 20px;
+  background: #dedddc;
+}
+.text-white {
+  color: $color_3 !important;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: normal;
+}
+.price {
+  color: $color_3 !important;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+}
+.card-title {
+  position: absolute;
+  width: 260px;
+  height: 29px;
+  left: 23px;
+  top: 231px;
+  font-weight: 300;
+  font-size: 24px;
+  color: $color_2;
+}
+.card-text {
+  position: absolute;
+  width: 153px;
+  height: 24px;
+  left: 23px;
+  top: 268px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: $color_4;
+}
+.available-size {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+.size {
+  width: 50px;
+  height: 50px;
+  left: 526px;
+  top: 250px;
+}
+.rectangle-5 {
+  display: inline-flex;
+}
+.btn-size {
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  width: 50px;
+  height: 50px;
+  top: 250px;
+  left: 526px;
+  color: $color_5;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.price-num {
+  padding: 10px 0;
+  .price-detail {
+    width: 113px;
+    height: 47px;
+    font-family: $font-family_1;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: red;
+    margin: 0;
+  }
+}
+
+.quantity {
+  width: 110px;
+  height: 50px;
+  display: inline-flex;
+}
+.quantity-num {
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: $color_2;
+  width: 50px;
+  height: 50px;
+  top: 370px;
+  left: 527px;
+  border: none;
+}
+.quantity-down {
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: $color_7;
+  background: linear-gradient(180deg, #6181f3 0%, #7c97f5 99.48%);
+  width: 50px;
+  height: 50px;
+  top: 370px;
+  left: 527px;
+}
+.quantity-up {
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: $color_7;
+  background: linear-gradient(180deg, #6181f3 0%, #7c97f5 99.48%);
+  width: 50px;
+  height: 50px;
+  top: 370px;
+  left: 527px;
+}
+.btn-add {
+  width: 175px;
+  height: 64px;
+  left: 527px;
+  top: 427px;
+  background: linear-gradient(270deg, rgba(62, 32, 248, 0.9) 5.14%, #d017ee 89.71%);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: $color_8;
+}
+.add-cart {
+  margin-top: 10px;
+}
+.error {
+  flex-shrink: 0;
+  color: $color_9;
+  font-family: $font-family_2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.detail-img {
+  height: 400px !important;
+}

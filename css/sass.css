@@ -1,0 +1,373 @@
+* {
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.container_f {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  box-sizing: border-box;
+  position: relative;
+  width: 1280px;
+  height: 50px;
+  background: #000000;
+  border: 1px solid #000000;
+}
+
+.header-right {
+  margin: 10px;
+}
+.header-right a {
+  float: right;
+  position: static;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #f7f7f7;
+}
+
+.login {
+  width: 50px;
+  height: 32px;
+  left: 1105px;
+  top: 14px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f7f7f7;
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.register {
+  width: 70px;
+  height: 32px;
+  left: 1170px;
+  top: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f7f7f7;
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.line {
+  display: inline-block;
+  position: relative;
+}
+
+.line:after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: #888888;
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transition-duration: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+}
+
+.line:hover:after {
+  width: 100%;
+  left: 0;
+  transition-duration: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+}
+
+.image-header {
+  position: absolute;
+  left: 24px;
+  top: 10px;
+}
+.image-header img {
+  width: 116px;
+  height: 32px;
+}
+
+.cart-logo {
+  background: url(./cart.png) no-repeat;
+  width: 55px;
+  height: 30px;
+  color: #f7f7f7;
+  position: absolute;
+}
+.cart-logo span {
+  position: relative;
+  top: -10px;
+  right: 0;
+  padding: 0 4px;
+  border-radius: 10px;
+  background-color: #fc0303;
+  font-weight: bold;
+}
+
+.header-left {
+  float: left;
+  margin-top: 10px;
+}
+
+.menu {
+  position: relative;
+  width: 1280px;
+  height: 50px;
+  background: #ffffff;
+}
+.menu .header-left a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  padding: 20px 14px;
+}
+
+.banner {
+  width: 100%;
+}
+.banner .bg-banner {
+  background-image: url(./../asset/image4.png);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.banner .bg-banner .text-banner {
+  margin-left: 230px;
+  margin-top: 60px;
+  font-family: "Inter";
+}
+.banner .bg-banner .text-banner h2 {
+  font-size: 40px;
+}
+.banner .bg-banner .text-banner p {
+  font-size: 20px;
+  line-height: 10px;
+}
+.banner .bg-banner .text-banner button {
+  width: 150px;
+  height: 50px;
+  background-color: #F8B653;
+  color: #f7f7f7;
+  font-family: "Inter";
+  font-weight: 300;
+  border: none;
+}
+
+.card {
+  margin: 20px;
+  width: 340px;
+  height: 369px;
+  left: 70px;
+  top: 0;
+  background: #f8f8f8;
+}
+
+#lstProduct {
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.display-4 {
+  font-size: 40px !important;
+  padding-top: 15px;
+}
+
+.card-img-top {
+  position: absolute;
+  width: 220px;
+  height: 156px;
+  left: 57px;
+  top: 45px;
+}
+
+.rectangle-2 {
+  position: absolute;
+  width: 175px;
+  height: 64px;
+  left: 0px;
+  top: 305px;
+  padding: 20px;
+  background: #e1b067;
+}
+
+.rectangle-3 {
+  position: absolute;
+  width: 165px;
+  height: 64px;
+  left: 174px;
+  top: 305px;
+  padding: 20px;
+  background: #dedddc;
+}
+
+.text-white {
+  color: #000 !important;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.price {
+  color: #000 !important;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card-title {
+  position: absolute;
+  width: 260px;
+  height: 29px;
+  left: 23px;
+  top: 231px;
+  font-weight: 300;
+  font-size: 24px;
+  color: #000000;
+}
+
+.card-text {
+  position: absolute;
+  width: 153px;
+  height: 24px;
+  left: 23px;
+  top: 268px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #cbc9c9;
+}
+
+.available-size {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.size {
+  width: 50px;
+  height: 50px;
+  left: 526px;
+  top: 250px;
+}
+
+.rectangle-5 {
+  display: inline-flex;
+}
+
+.btn-size {
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  width: 50px;
+  height: 50px;
+  top: 250px;
+  left: 526px;
+  color: #1e1d1d;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.price-num {
+  padding: 10px 0;
+}
+.price-num .price-detail {
+  width: 113px;
+  height: 47px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: red;
+  margin: 0;
+}
+
+.quantity {
+  width: 110px;
+  height: 50px;
+  display: inline-flex;
+}
+
+.quantity-num {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  width: 50px;
+  height: 50px;
+  top: 370px;
+  left: 527px;
+  border: none;
+}
+
+.quantity-down {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #fffcfc;
+  background: linear-gradient(180deg, #6181f3 0%, #7c97f5 99.48%);
+  width: 50px;
+  height: 50px;
+  top: 370px;
+  left: 527px;
+}
+
+.quantity-up {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #fffcfc;
+  background: linear-gradient(180deg, #6181f3 0%, #7c97f5 99.48%);
+  width: 50px;
+  height: 50px;
+  top: 370px;
+  left: 527px;
+}
+
+.btn-add {
+  width: 175px;
+  height: 64px;
+  left: 527px;
+  top: 427px;
+  background: linear-gradient(270deg, rgba(62, 32, 248, 0.9) 5.14%, #d017ee 89.71%);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff8f8;
+}
+
+.add-cart {
+  margin-top: 10px;
+}
+
+.error {
+  flex-shrink: 0;
+  color: #f50e0e;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.detail-img {
+  height: 400px !important;
+}/*# sourceMappingURL=sass.css.map */
